@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+
+section {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #f1f5f9;
+  padding: 2rem;
+}
+
+input {
+  background-color: #e2e8f0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.box {
+  background-color: #1e293b;
+  border-radius: 10px;
+  gap: 10px;
+}
+.texto {
+  width: 335px;
+  height: 800%;
+  //margin-top: 5%;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+}
+.p1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #cbd5e1;
+}
+
+button {
+  background-color: #a3e635;
+  width: 335px;
+  height: 48px;
+  padding: 12px 77px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 1rem auto;
+  border: none;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #84cc16;
+}
+.bc1 {
+}
+
+.bc2:hover {
+  background-color: #b91c1c;
+  color: #fff;
+}
+
+#resposta {
+  width: 335px;
+  height: 800%;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.bc3 {
+}
+
+.bc3:hover {
+  background-color: #65a30d;
+}
+
+footer {
+  background-color: #18181b;
+  width: calc(100% - 100px);
+  text-align: center;
+  color: antiquewhite;
+  height: 2rem;
+  margin-top: 1rem;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .box {
+    width: 450px;
+    margin-bottom: 120px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
